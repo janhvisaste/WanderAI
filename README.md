@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 WanderAI - Intelligent Travel Planner
 
-## Getting Started
+WanderAI is a premium, full-stack travel planning platform that leverages advanced AI to instantly generate incredibly detailed, personalized multi-day travel itineraries. 
 
-First, run the development server:
+Say goodbye to endless hours of researching! WanderAI effortlessly crafts daily schedules, provides intelligent cost estimates, and seamlessly plots beautiful recommended hotels directly onto an interactive map.
 
+![WanderAI Dashboard](https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80) 
+*(Example conceptual banner)*
+
+## ✨ Key Features
+- **🤖 AI-Powered Itineraries**: Generate complete 1-14 day travel schedules customized to your budget and specific interests using state-of-the-art LLMs (LLaMA 3.3 via OpenRouter/Groq).
+- **🗺️ Interactive Hotel Maps**: View real-time, curated hotel recommendations exactly where you're traveling, seamlessly plotted on an interactive Leaflet map synced with OpenStreetMap.
+- **🌗 Stunning UI & Theme Support**: A gorgeous, animated dashboard built with Framer Motion, fully supporting true Light and Dark modes.
+- **🔐 Secure Authentication**: Integrated with Supabase to provide safe, instant user authentication and profile management.
+- **💾 Trip Management**: Save your favorite itineraries directly to your account. 
+- **🚀 Ultra-Fast Architecture**: Robust Next.js 14 frontend paired with a parallelized Python FastAPI backend.
+
+## 🛠️ Tech Stack
+**Frontend:**
+- [Next.js 14](https://nextjs.org/) (App Router)
+- [React 18](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Leaflet](https://leafletjs.com/) & React Leaflet
+
+**Backend:**
+- [Python 3.10+](https://www.python.org/)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Uvicorn](https://www.uvicorn.org/)
+
+**APIs & Services:**
+- [Supabase](https://supabase.com/) (Auth)
+- [OpenRouter](https://openrouter.ai/) / [Groq](https://groq.com/) (LLMs)
+- [OpenStreetMap Overpass API](https://overpass-api.de/) (Geocoding & Lodging)
+
+---
+
+## 💻 Getting Started
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/janhvisaste/WanderAI.git
+cd WanderAI
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Set up the Environment Variables
+You will need two `.env` files.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Frontend (`.env.local`) in the root directory:**
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Backend (`backend/.env`) in the backend module:**
+```env
+OPENROUTER_API_KEY=your_openrouter_api_key
+GROQ_API_KEY=your_groq_api_key
+```
 
-## Learn More
+### 3. Install Dependencies
+**Frontend:**
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+**Backend:**
+```bash
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+cd ..
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Running the Project
 
-## Deploy on Vercel
+WanderAI comes with a convenient, unified startup script that gracefully boots both the Next.js frontend and the Python backend simultaneously.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Simply run:
+```bash
+./start.sh
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Frontend** runs on [http://localhost:3000](http://localhost:3000)
+- **Backend API** runs on [http://localhost:8000](http://localhost:8000)
+- **FastAPI Auto-Docs** are available at [http://localhost:8000/docs](http://localhost:8000/docs)
+
+*(Note: Ensure you have made the script executable via `chmod +x start.sh` if running manually for the first time)*
+
+---
+
+*Built with ❤️ for passionate worldwide travelers.*

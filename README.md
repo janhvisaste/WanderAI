@@ -4,8 +4,6 @@ WanderAI is a premium, full-stack travel planning platform that leverages advanc
 
 Say goodbye to endless hours of researching! WanderAI effortlessly crafts daily schedules, provides intelligent cost estimates, and seamlessly plots beautiful recommended hotels directly onto an interactive map.
 
-![WanderAI Dashboard](https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80) 
-*(Example conceptual banner)*
 
 ## ✨ Key Features
 - **🤖 AI-Powered Itineraries**: Generate complete 1-14 day travel schedules customized to your budget and specific interests using state-of-the-art LLMs (LLaMA 3.3 via OpenRouter/Groq).

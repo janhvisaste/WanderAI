@@ -1,4 +1,4 @@
-# 🌍 WanderAI - Intelligent Travel Planner
+# 🌍 WanderAI - LLM-Driven Travel Intelligence & Geospatial Recommendation Platform
 
 WanderAI is a premium, full-stack travel planning platform that leverages advanced AI to instantly generate incredibly detailed, personalized multi-day travel itineraries. 
 

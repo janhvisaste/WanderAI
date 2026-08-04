@@ -1,95 +1,292 @@
 <div align="center">
-  
-# 🌍 WanderAI - LLM-Driven Travel Intelligence & Geospatial Recommendation Platform
 
-WanderAI is a premium, full-stack travel planning platform that leverages advanced AI to instantly generate incredibly detailed, personalized multi-day travel itineraries. 
+# 🌍 WanderAI
 
-Say goodbye to endless hours of researching! WanderAI effortlessly crafts daily schedules, provides intelligent cost estimates, and seamlessly plots beautiful recommended hotels directly onto an interactive map.
+### AI-Powered Travel Intelligence & Geospatial Recommendation Platform
 
+Generate personalized multi-day travel itineraries in seconds using Large Language Models, complete with intelligent hotel recommendations, interactive maps, and cost estimation.
 
-## ✨ Key Features
-- **🤖 AI-Powered Itineraries**: Generate complete 1-14 day travel schedules customized to your budget and specific interests using state-of-the-art LLMs (LLaMA 3.3 via OpenRouter/Groq).
-- **🗺️ Interactive Hotel Maps**: View real-time, curated hotel recommendations exactly where you're traveling, seamlessly plotted on an interactive Leaflet map synced with OpenStreetMap.
-- **🌗 Stunning UI & Theme Support**: A gorgeous, animated dashboard built with Framer Motion, fully supporting true Light and Dark modes.
-- **🔐 Secure Authentication**: Integrated with Supabase to provide safe, instant user authentication and profile management.
-- **💾 Trip Management**: Save your favorite itineraries directly to your account. 
-- **🚀 Ultra-Fast Architecture**: Robust Next.js 14 frontend paired with a parallelized Python FastAPI backend.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenRouter-LLM-blue?style=for-the-badge" />
+</p>
 
-## 🛠️ Tech Stack
-**Frontend:**
-- [Next.js 14](https://nextjs.org/) (App Router)
-- [React 18](https://react.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Leaflet](https://leafletjs.com/) & React Leaflet
-
-**Backend:**
-- [Python 3.10+](https://www.python.org/)
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [Uvicorn](https://www.uvicorn.org/)
-
-**APIs & Services:**
-- [Supabase](https://supabase.com/) (Auth)
-- [OpenRouter](https://openrouter.ai/) / [Groq](https://groq.com/) (LLMs)
-- [OpenStreetMap Overpass API](https://overpass-api.de/) (Geocoding & Lodging)
+</div>
 
 ---
 
-## 💻 Getting Started
+## 📖 Overview
 
-### 1. Clone the repository
+**WanderAI** is a full-stack AI travel planning platform that combines modern LLMs with geospatial intelligence to generate personalized travel experiences.
+
+Instead of spending hours researching destinations, accommodations, and daily activities, users simply describe their trip preferences and receive a structured itinerary complete with:
+
+- 📅 Day-wise travel plans
+- 💰 Estimated travel costs
+- 🏨 Curated hotel recommendations
+- 🗺️ Interactive location visualization
+- 💾 Saved trips with authentication
+
+---
+
+# 📸 Demo
+
+## Dashboard
+
+<p align="center">
+<img src="assets/dashboard.png" width="100%">
+</p>
+
+---
+
+## AI Generated Itinerary
+
+<p align="center">
+<img src="assets/itinerary.png" width="100%">
+</p>
+
+---
+
+## Hotel Recommendation Map
+
+<p align="center">
+<img src="assets/map.png" width="100%">
+</p>
+
+---
+
+## Dark Mode
+
+<p align="center">
+<img src="assets/darkmode.png" width="100%">
+</p>
+
+> Store all screenshots inside an **assets/** folder.
+
+---
+
+# ✨ Features
+
+### 🤖 AI Travel Planning
+- Personalized 1–14 day itineraries
+- Interest-based recommendations
+- Budget-aware planning
+- Day-wise schedules
+
+### 🗺️ Interactive Maps
+- Live hotel recommendations
+- OpenStreetMap integration
+- Leaflet-based visualization
+- Destination geocoding
+
+### 🏨 Smart Hotel Discovery
+- Nearby accommodation search
+- Interactive hotel markers
+- Quick navigation
+
+### 💰 Cost Estimation
+- Estimated travel expenses
+- Budget-aware recommendations
+
+### 🔐 Authentication
+- Secure Supabase authentication
+- User profile management
+- Saved itinerary history
+
+### 🎨 Modern UI
+- Responsive interface
+- Light & Dark mode
+- Framer Motion animations
+- Clean dashboard experience
+
+---
+
+# 🏗️ Architecture
+
+```
+             User
+               │
+               ▼
+      Next.js + React Frontend
+               │
+        REST API Requests
+               │
+               ▼
+      Python FastAPI Backend
+      ├── LLM Service
+      ├── Trip Generator
+      ├── Hotel Search
+      └── Cost Estimator
+               │
+       ┌───────┴────────┐
+       ▼                ▼
+ OpenRouter/Groq   OpenStreetMap
+       │
+       ▼
+    Supabase
+```
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+- Next.js 14
+- React 18
+- Tailwind CSS
+- Framer Motion
+- React Leaflet
+- Leaflet
+
+## Backend
+
+- Python 3.10+
+- FastAPI
+- Uvicorn
+
+## AI
+
+- LLaMA 3.3
+- OpenRouter
+- Groq
+
+## Services
+
+- Supabase Authentication
+- OpenStreetMap
+- Overpass API
+
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
+
 ```bash
 git clone https://github.com/janhvisaste/WanderAI.git
+
 cd WanderAI
 ```
 
-### 2. Set up the Environment Variables
-You will need two `.env` files.
+---
 
-**Frontend (`.env.local`) in the root directory:**
+## Environment Variables
+
+### Frontend (`.env.local`)
+
 ```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+NEXT_PUBLIC_SUPABASE_URL=YOUR_SUPABASE_URL
+NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_SUPABASE_KEY
 ```
 
-**Backend (`backend/.env`) in the backend module:**
+### Backend (`backend/.env`)
+
 ```env
-OPENROUTER_API_KEY=your_openrouter_api_key
-GROQ_API_KEY=your_groq_api_key
+OPENROUTER_API_KEY=YOUR_OPENROUTER_KEY
+GROQ_API_KEY=YOUR_GROQ_KEY
 ```
 
-### 3. Install Dependencies
-**Frontend:**
+---
+
+## Install Dependencies
+
+### Frontend
+
 ```bash
 npm install
 ```
 
-**Backend:**
+### Backend
+
 ```bash
 cd backend
+
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
-cd ..
 ```
 
 ---
 
-## 🚀 Running the Project
+# ▶️ Run the Project
 
-WanderAI comes with a convenient, unified startup script that gracefully boots both the Next.js frontend and the Python backend simultaneously.
-
-Simply run:
 ```bash
 ./start.sh
 ```
 
-- **Frontend** runs on [http://localhost:3000](http://localhost:3000)
-- **Backend API** runs on [http://localhost:8000](http://localhost:8000)
-- **FastAPI Auto-Docs** are available at [http://localhost:8000/docs](http://localhost:8000/docs)
+### Frontend
 
-*(Note: Ensure you have made the script executable via `chmod +x start.sh` if running manually for the first time)*
+```
+http://localhost:3000
+```
+
+### Backend
+
+```
+http://localhost:8000
+```
+
+### API Documentation
+
+```
+http://localhost:8000/docs
+```
 
 ---
 
-*Built with ❤️ for passionate worldwide travelers.*
+# 📂 Project Structure
+
+```
+WanderAI
+│
+├── app/
+├── components/
+├── backend/
+├── assets/
+├── public/
+├── start.sh
+├── README.md
+└── package.json
+```
+
+---
+
+# 🔮 Future Improvements
+
+- Flight recommendations
+- Restaurant recommendations
+- Weather-aware itinerary planning
+- Multi-city trip optimization
+- PDF itinerary export
+- Google Maps integration
+- Collaborative trip planning
+
+---
+
+# ❤️ Built With
+
+- Next.js
+- FastAPI
+- LLaMA 3.3
+- OpenRouter
+- Groq
+- Supabase
+- OpenStreetMap
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project helpful, consider giving it a star!
+
+Made with ❤️ by **Janhvi Saste**
+
+</div>

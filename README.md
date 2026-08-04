@@ -36,37 +36,11 @@ Instead of spending hours researching destinations, accommodations, and daily ac
 
 # 📸 Demo
 
-## Dashboard
+### Dashboard
 
 <p align="center">
-<img src="assets/dashboard.png" width="100%">
+  <img src="https://github.com/user-attachments/assets/fa256f1e-9673-4b72-8625-3320430063a6" alt="WanderAI Dashboard" width="100%">
 </p>
-
----
-
-## AI Generated Itinerary
-
-<p align="center">
-<img src="assets/itinerary.png" width="100%">
-</p>
-
----
-
-## Hotel Recommendation Map
-
-<p align="center">
-<img src="assets/map.png" width="100%">
-</p>
-
----
-
-## Dark Mode
-
-<p align="center">
-<img src="assets/darkmode.png" width="100%">
-</p>
-
-> Store all screenshots inside an **assets/** folder.
 
 ---
 

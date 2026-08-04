@@ -34,8 +34,6 @@ Instead of spending hours researching destinations, accommodations, and daily ac
 
 ---
 
-# 📸 Demo
-
 ### Dashboard
 
 <p align="center">

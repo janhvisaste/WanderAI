@@ -46,10 +46,6 @@ Instead of spending hours researching destinations, accommodations, and daily ac
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8e3121e4-9c08-41b9-ad83-964ed096efd8" alt="WanderAI Landing Page" width="100%">
-</p>
-
-<p align="center">
   <img src="https://github.com/user-attachments/assets/42aa6ec5-b015-4b10-b734-1f79d894e9d8" alt="WanderAI Landing Page" width="100%">
 </p>
 

@@ -36,27 +36,15 @@ Instead of spending hours researching destinations, accommodations, and daily ac
 
 ## 📸 UI
 
-<table>
-<tr>
-<td width="50%">
-<img src="https://github.com/user-attachments/assets/5087d0ba-0ac3-452f-8208-08eee884c910" alt="Landing Page"/>
-</td>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5087d0ba-0ac3-452f-8208-08eee884c910" width="49%" alt="Landing Page">
+  <img src="https://github.com/user-attachments/assets/8e3121e4-9c08-41b9-ad83-964ed096efd8" width="49%" alt="Trip Planner">
+</p>
 
-<td width="50%">
-<img src="https://github.com/user-attachments/assets/8e3121e4-9c08-41b9-ad83-964ed096efd8" alt="Trip Planner"/>
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-<img src="https://github.com/user-attachments/assets/42aa6ec5-b015-4b10-b734-1f79d894e9d8" alt="Map View"/>
-</td>
-
-<td width="50%">
-<img src="https://github.com/user-attachments/assets/e2e13ad0-6b9f-473f-b8c1-1a993384a2d4" alt="Saved Trips"/>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/42aa6ec5-b015-4b10-b734-1f79d894e9d8" width="49%" alt="Map View">
+  <img src="https://github.com/user-attachments/assets/e2e13ad0-6b9f-473f-b8c1-1a993384a2d4" width="49%" alt="Saved Trips">
+</p>
 
 <br>
 

@@ -36,28 +36,37 @@ Instead of spending hours researching destinations, accommodations, and daily ac
 
 ## 📸 UI
 
+<table>
+<tr>
+<td width="50%">
+<img src="https://github.com/user-attachments/assets/5087d0ba-0ac3-452f-8208-08eee884c910" alt="Landing Page"/>
+</td>
+
+<td width="50%">
+<img src="https://github.com/user-attachments/assets/8e3121e4-9c08-41b9-ad83-964ed096efd8" alt="Trip Planner"/>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+<img src="https://github.com/user-attachments/assets/42aa6ec5-b015-4b10-b734-1f79d894e9d8" alt="Map View"/>
+</td>
+
+<td width="50%">
+<img src="https://github.com/user-attachments/assets/e2e13ad0-6b9f-473f-b8c1-1a993384a2d4" alt="Saved Trips"/>
+</td>
+</tr>
+</table>
+
+<br>
+
+### Dashboard
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5087d0ba-0ac3-452f-8208-08eee884c910" alt="WanderAI Landing Page" width="100%">
+  <img src="https://github.com/user-attachments/assets/fa256f1e-9673-4b72-8625-3320430063a6"
+       alt="WanderAI Dashboard"
+       width="100%">
 </p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8e3121e4-9c08-41b9-ad83-964ed096efd8" alt="WanderAI Landing Page" width="100%">
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/42aa6ec5-b015-4b10-b734-1f79d894e9d8" alt="WanderAI Landing Page" width="100%">
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e2e13ad0-6b9f-473f-b8c1-1a993384a2d4" alt="WanderAI Landing Page" width="100%">
-</p>
-
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/fa256f1e-9673-4b72-8625-3320430063a6" alt="WanderAI Dashboard" width="100%">
-</p>
-
 ---
 
 # ✨ Features

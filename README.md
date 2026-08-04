@@ -34,7 +34,7 @@ Instead of spending hours researching destinations, accommodations, and daily ac
 
 ---
 
-### Dashboard
+## 📸 Dashboard
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/fa256f1e-9673-4b72-8625-3320430063a6" alt="WanderAI Dashboard" width="100%">
